@@ -19,7 +19,7 @@ public class Todo {
 
     @Column(name = "Title", nullable = false)
     private String title;
-    @Column(name = "Name of action", nullable = false)
+    @Column(name = "name of action", nullable = false)
     private String description;
     @Column(name = "Status")
     private boolean completed;
